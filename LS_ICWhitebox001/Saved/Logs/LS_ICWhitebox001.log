@@ -1,4 +1,4 @@
-﻿Log file open, 01/14/19 08:21:54
+﻿Log file open, 01/16/19 08:01:42
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: LS_ICWhitebox001
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276975
+LogStats: Stats thread started at 0.874000
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.099s to configure plugins.
+LogStreaming: Display: Took  0.127s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="ThePoet201202" -epicuserid=318f51f9dfab4f0982a8f6966176573e -epiclocale=en-US
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -148,598 +148,328 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.14-15.21.54:418][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-15.21.54:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.14-15.21.54:430][  0]LogHAL: Display: Platform has ~ 16 GB [17095360512 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.14-15.21.54:430][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.14-15.21.54:430][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.14-15.21.54:430][  0]LogInit: Computer: eae-n-025
-[2019.01.14-15.21.54:430][  0]LogInit: User: u1047856
-[2019.01.14-15.21.54:430][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.14-15.21.54:430][  0]LogInit: High frequency timer resolution =3.023436 MHz
-[2019.01.14-15.21.54:431][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.14-15.21.54:431][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.14-15.21.54:431][  0]LogMemory: Process Physical Memory: 100.84 MB used, 100.84 MB peak
-[2019.01.14-15.21.54:431][  0]LogMemory: Process Virtual Memory: 89.55 MB used, 89.55 MB peak
-[2019.01.14-15.21.54:431][  0]LogMemory: Physical Memory: 7737.26 MB used,  8566.15 MB free, 16303.41 MB total
-[2019.01.14-15.21.54:431][  0]LogMemory: Virtual Memory: 4639.15 MB used,  8566.15 MB free, 134217728.00 MB total
-[2019.01.14-15.21.54:445][  0]LogInit: Using OS detected language (en-US).
-[2019.01.14-15.21.54:445][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.14-15.21.54:446][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.14-15.21.54:778][  0]LogStreaming: Display: Took  0.333s to InitEngineTextLocalization.
-[2019.01.14-15.21.54:778][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.14-15.21.54:825][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.14-15.21.54:825][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.14-15.21.55:005][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-15.21.55:005][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.14-15.21.55:050][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
-[2019.01.14-15.21.55:050][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2019.01.14-15.21.55:063][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.01.14-15.21.55:063][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.14-15.21.55:064][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.14-15.21.55:064][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.14-15.21.55:064][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.14-15.21.55:074][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.14-15.21.55:074][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
-[2019.01.14-15.21.55:074][  0]LogWindows: EnumDisplayDevices:
-[2019.01.14-15.21.55:074][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
-[2019.01.14-15.21.55:074][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:1)
-[2019.01.14-15.21.55:074][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-15.21.55:075][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-15.21.55:075][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-15.21.55:075][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-15.21.55:075][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-15.21.55:076][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.14-15.21.55:076][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.14-15.21.55:076][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
-[2019.01.14-15.21.55:076][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
-[2019.01.14-15.21.55:076][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
-[2019.01.14-15.21.55:076][  0]LogD3D11RHI:      Driver Date: 8-30-2018
-[2019.01.14-15.21.55:076][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
-[2019.01.14-15.21.55:155][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.14-15.21.55:165][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.01.14-15.21.55:167][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Intermediate/Shaders/WorkingDirectory/10380/).
-[2019.01.14-15.21.55:167][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1047856/AppData/Local/Temp/UnrealShaderWorkingDir/60E0D245486DF7E877343D9CE9405EAC/'.
-[2019.01.14-15.21.55:414][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.14-15.21.55:426][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.14-15.21.55:438][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.14-15.21.55:450][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.14-15.21.55:462][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.14-15.21.55:478][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.14-15.21.55:490][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.14-15.21.55:501][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.14-15.21.55:507][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:572][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-15.21.55:574][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.14-15.21.55:630][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-15.21.55:630][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-15.21.55:649][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-15.21.55:650][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-15.21.55:660][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.14-15.21.55:670][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.14-15.21.55:680][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.14-15.21.55:691][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.14-15.21.55:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.14-15.21.55:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.14-15.21.55:762][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.14-15.21.55:762][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.14-15.21.55:762][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.14-15.21.56:383][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.14-15.21.56:437][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-15.21.56:438][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.14-15.21.56:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.14-15.21.56:438][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.14-15.21.56:438][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.14-15.21.56:438][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.14-15.21.56:449][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.14-15.21.56:461][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1047856/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.14-15.21.56:461][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.14-15.21.56:461][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.14-15.21.56:476][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.14-15.21.56:477][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.14-15.21.56:478][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.14-15.21.56:543][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2019.01.14-15.21.56:826][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-15.21.56:948][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.14-15.21.56:952][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.14-15.21.56:952][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.14-15.21.56:952][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.14-15.21.56:952][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.14-15.21.56:970][  0]LogNetVersion: LS_ICWhitebox001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2089255751)
-[2019.01.14-15.21.57:485][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.103064 seconds
-[2019.01.14-15.21.57:491][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.14-15.21.57:491][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.01.14-15.21.57:491][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.14-15.21.58:285][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.14-15.21.58:311][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.14-15.21.58:451][  0]SourceControl: Source control is disabled
-[2019.01.14-15.21.58:451][  0]SourceControl: Source control is disabled
-[2019.01.14-15.21.58:452][  0]SourceControl: Source control is disabled
-[2019.01.14-15.21.58:453][  0]SourceControl: Source control is disabled
-[2019.01.14-15.21.58:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.14-15.21.58:706][  0]LogOcInput: OculusInput pre-init called
-[2019.01.14-15.21.58:766][  0]LogEngine: Initializing Engine...
-[2019.01.14-15.21.58:767][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-15.21.58:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-15.21.58:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-15.21.58:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-15.21.58:768][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-15.21.58:968][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.14-15.21.58:985][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.14-15.21.59:019][  0]LogInit: XAudio2 using '4 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.14-15.21.59:046][  0]LogInit: FAudioDevice initialized.
-[2019.01.14-15.21.59:046][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.14-15.21.59:128][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-15.21.59:137][  0]LogInit: Texture streaming: Enabled
-[2019.01.14-15.21.59:158][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.14-15.21.59:177][  0]LogInit: Transaction tracking system initialized
-[2019.01.14-15.21.59:208][  0]BlueprintLog: New page: Editor Load
-[2019.01.14-15.21.59:381][  0]LocalizationService: Localization service is disabled
-[2019.01.14-15.21.59:648][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/' took 0.01s
-[2019.01.14-15.21.59:648][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.14-15.21.59:648][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.14-15.21.59:649][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.14-15.21.59:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-15.21.59:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-15.21.59:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-15.21.59:649][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-15.21.59:786][  0]SourceControl: Source control is disabled
-[2019.01.14-15.21.59:786][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.14-15.21.59:786][  0]LightingResults: New page: Lighting Build
-[2019.01.14-15.21.59:790][  0]MapCheck: New page: Map Check
-[2019.01.14-15.21.59:790][  0]LightingResults: New page: Lighting Build
-[2019.01.14-15.21.59:972][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.14-15.21.59:978][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.14-15.22.00:000][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.14-15.22.00:066][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.698ms to complete.
-[2019.01.14-15.22.00:066][  0]LogFileHelpers: Loading map 'Template_Default' took 0.280
-[2019.01.14-15.22.00:231][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-15.22.00:241][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-15.22.00:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-15.22.00:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-15.22.00:272][  0]LogCollectionManager: Loaded 0 collections in 0.001763 seconds
-[2019.01.14-15.22.00:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Collections/' took 0.01s
-[2019.01.14-15.22.00:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/Developers/u1047856/Collections/' took 0.01s
-[2019.01.14-15.22.00:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/Collections/' took 0.01s
-[2019.01.14-15.22.00:345][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.01.14-15.22.00:356][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2572 classes and 603 folders.
-[2019.01.14-15.22.00:376][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.14-15.22.00:814][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.14-15.22.00:829][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.01.14-15.22.00:904][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.14-15.22.00:906][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.14-15.22.00:922][  0]LogSlate: Took 0.007482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.14-15.22.01:044][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.01.14-15.22.01:265][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.14-15.22.01:265][  0]LogLoad: (Engine Initialization) Total time: 8.62 seconds
-[2019.01.14-15.22.01:265][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.14-15.22.01:277][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-15.22.01:300][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.14-15.22.06:370][599]LogAssetRegistry: Asset discovery search completed in 9.8499 seconds
-[2019.01.14-15.22.06:371][599]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.14-15.22.06:371][599]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
-[2019.01.14-15.24.39:825][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.01.14-15.24.41:460][170]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.30.52:091][120]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.14-15.30.52:099][120]LogAssetEditorManager: Opening Asset editor for Material /Game/N_WBM_LS.N_WBM_LS
-[2019.01.14-15.30.52:104][120]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.30.52:506][120]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.30.52:534][120]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.30.52:534][120]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.30.52:534][120]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.30.52:534][120]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.30.52:570][120]LogSlate: Took 0.008612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.01.14-15.30.53:260][155]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.30.53:297][157]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.30.53:312][158]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.30.53:312][158]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.30.53:441][165]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.30.53:485][168]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.30.53:487][168]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.30.53:504][169]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.30.53:612][176]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.30.53:777][185]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.30.53:918][194]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.30.53:933][195]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.30.54:000][199]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.30.54:141][207]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.30.54:172][209]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.30.54:374][221]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.30.54:391][222]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.30.54:699][241]MaterialEditorStats: Base pass shader: 99 instructions
-[2019.01.14-15.30.54:699][241]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2019.01.14-15.30.54:699][241]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2019.01.14-15.30.54:699][241]MaterialEditorStats: Texture samplers: 3/16
-[2019.01.14-15.31.02:063][805]LogSlate: Window 'N_WBM_LS*' being destroyed
-[2019.01.14-15.31.46:228][ 99]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.31.46:242][ 99]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2019.01.14-15.31.46:274][100]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.31.46:275][100]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.31.46:275][100]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.31.46:275][100]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.31.46:284][100]LogSlate: Took 0.007788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.01.14-15.31.46:795][161]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.31.46:837][166]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.31.46:845][167]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.31.46:852][168]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.31.46:956][180]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.31.46:995][185]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.31.47:012][187]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.31.47:021][188]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.31.47:122][200]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.31.47:270][217]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.31.47:392][232]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.31.47:426][236]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.31.47:510][246]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.31.47:618][259]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.31.47:667][265]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.31.47:851][287]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.31.47:876][290]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.31.47:985][303]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.31.48:029][308]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.31.48:210][329]MaterialEditorStats: Base pass shader: 99 instructions
-[2019.01.14-15.31.48:210][329]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2019.01.14-15.31.48:210][329]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2019.01.14-15.31.48:210][329]MaterialEditorStats: Texture samplers: 3/16
-[2019.01.14-15.32.11:221][ 82]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.019
-[2019.01.14-15.32.11:225][ 82]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/N_WBM_LS] ([1] browsable assets)...
-[2019.01.14-15.32.11:237][ 82]OBJ SavePackage:     Rendered thumbnail for [Material /Game/N_WBM_LS.N_WBM_LS]
-[2019.01.14-15.32.11:237][ 82]OBJ SavePackage: Finished generating thumbnails for package [/Game/N_WBM_LS]
-[2019.01.14-15.32.11:261][ 82]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/N_WBM_LS_Auto18E03A73747391DB0D009C69852526195.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Game/N_WBM_LS_Auto1.uasset'
-[2019.01.14-15.32.11:264][ 82]LogFileHelpers: Auto-saving content packages took 0.041
-[2019.01.14-15.32.55:701][401]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.32.55:721][401]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.32.55:721][401]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.32.55:721][401]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.32.55:721][401]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.32.55:721][401]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2019.01.14-15.32.56:285][464]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.32.56:321][468]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.32.56:326][469]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.32.56:326][469]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.32.56:452][483]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.32.56:486][487]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.32.56:495][488]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.32.56:512][490]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.32.56:619][503]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.32.56:768][519]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.32.56:906][535]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.32.56:940][539]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.32.56:998][546]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.32.57:135][562]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.32.57:161][565]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.32.57:368][589]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.32.57:385][591]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.32.57:446][598]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.32.57:533][608]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.32.57:796][635]MaterialEditorStats: Base pass shader: 99 instructions
-[2019.01.14-15.32.57:796][635]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2019.01.14-15.32.57:796][635]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2019.01.14-15.32.57:796][635]MaterialEditorStats: Texture samplers: 3/16
-[2019.01.14-15.32.58:616][733]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.32.58:631][733]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2019.01.14-15.32.58:645][733]LogShaderCompilers: Display: Shaders left to compile 23
-[2019.01.14-15.32.58:645][733]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.01.14-15.32.58:645][733]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.32.58:645][733]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.32.58:858][757]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.32.58:864][758]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.32.58:873][759]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.32.58:881][760]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.32.59:039][778]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.32.59:047][779]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.32.59:056][780]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.32.59:072][782]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.32.59:190][796]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.32.59:311][809]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.32.59:459][826]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.32.59:491][830]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.32.59:570][839]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.32.59:707][855]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.32.59:714][856]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.32.59:915][879]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.32.59:957][884]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.33.00:043][894]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.33.00:076][898]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.33.00:190][911]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.33.00:204][911]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.33.00:216][911]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2019.01.14-15.33.00:244][911]LogSlate: Window 'Color Picker' being destroyed
-[2019.01.14-15.33.00:283][915]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.01.14-15.33.00:298][917]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.33.00:349][923]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.33.00:426][932]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.33.00:481][939]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.33.00:516][943]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.33.00:516][943]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.33.00:617][955]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.33.00:642][958]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.33.00:665][961]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.33.00:683][963]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.33.00:765][973]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.33.00:931][992]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.33.01:066][  8]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.33.01:099][ 12]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.33.01:157][ 19]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.33.01:292][ 35]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.33.01:325][ 39]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.33.01:507][ 61]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.33.01:534][ 64]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.33.01:598][ 72]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.33.01:675][ 81]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.33.01:888][106]MaterialEditorStats: Base pass shader: 99 instructions
-[2019.01.14-15.33.01:888][106]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
-[2019.01.14-15.33.01:888][106]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2019.01.14-15.33.01:888][106]MaterialEditorStats: Texture samplers: 3/16
-[2019.01.14-15.33.05:102][490]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.33.05:121][490]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.33.05:121][490]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.33.05:121][490]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.33.05:121][490]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.33.05:121][490]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2019.01.14-15.33.05:329][512]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.33.05:354][515]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.33.05:371][517]LogShaderCompilers: Display: Shaders left to compile 17
-[2019.01.14-15.33.05:380][518]LogShaderCompilers: Display: Shaders left to compile 16
-[2019.01.14-15.33.05:487][530]LogShaderCompilers: Display: Shaders left to compile 15
-[2019.01.14-15.33.05:518][534]LogShaderCompilers: Display: Shaders left to compile 14
-[2019.01.14-15.33.05:526][535]LogShaderCompilers: Display: Shaders left to compile 13
-[2019.01.14-15.33.05:551][538]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.33.05:643][549]LogShaderCompilers: Display: Shaders left to compile 11
-[2019.01.14-15.33.05:814][569]LogShaderCompilers: Display: Shaders left to compile 10
-[2019.01.14-15.33.05:937][584]LogShaderCompilers: Display: Shaders left to compile 9
-[2019.01.14-15.33.05:971][588]LogShaderCompilers: Display: Shaders left to compile 8
-[2019.01.14-15.33.06:022][594]LogShaderCompilers: Display: Shaders left to compile 7
-[2019.01.14-15.33.06:156][610]LogShaderCompilers: Display: Shaders left to compile 6
-[2019.01.14-15.33.06:215][617]LogShaderCompilers: Display: Shaders left to compile 5
-[2019.01.14-15.33.06:389][638]LogShaderCompilers: Display: Shaders left to compile 4
-[2019.01.14-15.33.06:396][639]LogShaderCompilers: Display: Shaders left to compile 3
-[2019.01.14-15.33.06:463][647]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.33.06:565][659]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.33.06:767][683]MaterialEditorStats: Base pass shader: 101 instructions
-[2019.01.14-15.33.06:767][683]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
-[2019.01.14-15.33.06:767][683]MaterialEditorStats: Base pass vertex shader: 32 instructions
-[2019.01.14-15.33.06:767][683]MaterialEditorStats: Texture samplers: 3/16
-[2019.01.14-15.33.13:610][504]LogMaterialEditor: Saving and Compiling material N_WBM_LS
-[2019.01.14-15.33.14:074][504]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.33.14:118][504]LogShaderCompilers: Display: Shaders left to compile 21
-[2019.01.14-15.33.14:118][504]LogShaderCompilers: Display: Shaders left to compile 20
-[2019.01.14-15.33.14:118][504]LogShaderCompilers: Display: Shaders left to compile 19
-[2019.01.14-15.33.14:118][504]LogShaderCompilers: Display: Shaders left to compile 18
-[2019.01.14-15.33.14:137][504]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.33.14:152][504]LogMaterial: Display: Missing cached shader map for material N_WBM_LS, compiling. 
-[2019.01.14-15.33.14:191][504]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy N_WBM_LS, compiling. 
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 40
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 39
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 38
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 37
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 36
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 35
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 34
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 33
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 32
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 31
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 30
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 29
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 28
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 27
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 26
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 25
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 24
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 23
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.01.14-15.33.15:315][504]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-15.33.15:317][504]TextureStreamingBuild: Display: Compiling optional shaders took 1.133 seconds.
-[2019.01.14-15.33.15:339][504]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-15.33.17:459][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/N_WBM_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/N_WBM_LS.uasset" SILENT=true
-[2019.01.14-15.33.17:476][504]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/N_WBM_LS69E3DF124FA612E8EDD7F4896A6DEDE1.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/N_WBM_LS.uasset'
-[2019.01.14-15.35.05:384][162]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/MI_WBStreet_LS.MI_WBStreet_LS
-[2019.01.14-15.35.50:916][752]LogSlate: Window 'Color Picker' being destroyed
-[2019.01.14-15.35.53:465][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MI_WBStreet_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBStreet_LS.uasset" SILENT=true
-[2019.01.14-15.35.53:492][993]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_WBStreet_LS, compiling. 
-[2019.01.14-15.35.54:099][993]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-15.35.54:100][993]TextureStreamingBuild: Display: Compiling optional shaders took 0.610 seconds.
-[2019.01.14-15.35.54:134][993]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBStreet_LSF5194A724281D9393E7F288918782A88.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBStreet_LS.uasset'
-[2019.01.14-15.36.06:481][341]LogSlate: Window 'MI_WBStreet_LS' being destroyed
-[2019.01.14-15.36.29:864][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_WBM_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/M_WBM_LS.uasset" SILENT=true
-[2019.01.14-15.36.29:880][212]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/M_WBM_LS79C95E7040178EC5E24DF289B1F14337.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/M_WBM_LS.uasset'
-[2019.01.14-15.36.30:020][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MI_WBStreet_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBStreet_LS.uasset" SILENT=true
-[2019.01.14-15.36.30:034][212]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBStreet_LS81E60F0E416CAB87D3E9F180FBC8F80E.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBStreet_LS.uasset'
-[2019.01.14-15.39.05:699][ 84]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-15.39.23:114][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.42.17:202][825]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Untitled_1_Auto244F3C9A94A8C2B892D2D70916D9E2757.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
-[2019.01.14-15.42.17:209][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.054
-[2019.01.14-15.42.17:209][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.054
-[2019.01.14-15.42.17:212][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MI_WBSideWlk_LS] ([1] browsable assets)...
-[2019.01.14-15.42.17:224][825]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/MI_WBSideWlk_LS.MI_WBSideWlk_LS]
-[2019.01.14-15.42.17:224][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/MI_WBSideWlk_LS]
-[2019.01.14-15.42.17:239][825]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBSideWlk_LS_Auto271FD60A3425DD6372BD5CB90AB704873.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Game/MI_WBSideWlk_LS_Auto2.uasset'
-[2019.01.14-15.42.17:240][825]LogFileHelpers: Auto-saving content packages took 0.029
-[2019.01.14-15.43.28:752][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.46.33:295][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.50.41:880][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.51.47:501][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.53.25:186][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-15.53.25:301][669]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Untitled_1_Auto36127751041F7CBC4BF1397854683BF1D.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
-[2019.01.14-15.53.25:304][669]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.098
-[2019.01.14-15.53.25:304][669]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.098
-[2019.01.14-15.53.49:148][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.53.58:327][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.55.28:896][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.55.31:070][ 13]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-15.55.35:863][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.56.07:945][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.57.19:577][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.57.30:677][ 17]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.58.44:201][689]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-15.58.46:665][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-15.59.24:271][445]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-15.59.26:223][674]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-15.59.28:965][993]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.00.51:539][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.01.08:651][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.01.18:357][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.01.23:679][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.01.44:359][484]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-16.01.48:088][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.02.02:988][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.03.12:395][871]Cmd: TRANSACTION UNDO
-[2019.01.14-16.03.12:395][871]LogEditorTransaction: Undo Move Actors
-[2019.01.14-16.03.12:417][871]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_19.BrushComponent0) Component already registered.
-[2019.01.14-16.03.50:230][285]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.03.50:409][285]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Untitled_1_Auto4E5FF48B142D98363943856A76F1C424B.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Temp/Untitled_1_Auto4.umap'
-[2019.01.14-16.03.50:413][285]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.164
-[2019.01.14-16.03.50:413][285]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
-[2019.01.14-16.04.50:718][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.04.52:862][562]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-16.04.55:375][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.05.19:421][658]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.05.22:875][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.06.11:168][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.06.34:230][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.07.32:875][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.08.31:084][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:086][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:086][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:087][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:087][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:088][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:088][864]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.08.31:128][864]LogEditorActor: Deleted 7 Actors (0.048 secs)
-[2019.01.14-16.08.52:518][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.08.56:382][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.09.25:092][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.10.21:646][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.10.46:782][301]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/MI_WBGrd_LS.MI_WBGrd_LS
-[2019.01.14-16.11.52:292][ 80]LogSlate: Window 'MI_WBGrd_LS*' being destroyed
-[2019.01.14-16.11.52:297][ 80]LogSlate: Window 'MI_WBGrd_LS*' being destroyed
-[2019.01.14-16.11.52:338][ 80]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_WBGrd_LS, compiling. 
-[2019.01.14-16.11.52:748][ 80]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-16.11.52:749][ 80]TextureStreamingBuild: Display: Compiling optional shaders took 0.414 seconds.
-[2019.01.14-16.11.58:416][478]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/MI_WBGrd_LS.MI_WBGrd_LS
-[2019.01.14-16.12.44:598][113]LogSlate: Window 'Color Picker' being destroyed
-[2019.01.14-16.12.46:544][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MI_WBGrd_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBGrd_LS.uasset" SILENT=true
-[2019.01.14-16.12.46:570][304]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_WBGrd_LS, compiling. 
-[2019.01.14-16.12.46:970][304]LogShaderCompilers: Display: Shaders left to compile 1
-[2019.01.14-16.12.46:971][304]TextureStreamingBuild: Display: Compiling optional shaders took 0.405 seconds.
-[2019.01.14-16.12.47:005][304]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBGrd_LS18F77BCC4E3EAEAD9B970AB1F89F8C66.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBGrd_LS.uasset'
-[2019.01.14-16.13.04:810][239]LogSlate: Window 'MI_WBGrd_LS' being destroyed
-[2019.01.14-16.13.04:815][239]LogSlate: Window 'MI_WBGrd_LS' being destroyed
-[2019.01.14-16.13.45:217][806]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/u1047856/Desktop/mann.obj)
-[2019.01.14-16.13.45:251][806]LogFbx: Loading FBX Scene from ../../../../../../Users/u1047856/Desktop/mann.obj
-[2019.01.14-16.13.45:334][806]LogFbx: FBX Scene Loaded Succesfully
-[2019.01.14-16.13.47:759][806]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.01.14-16.13.47:936][806]LogMaterial: Display: Missing cached shader map for material SM_hatMat, compiling. 
-[2019.01.14-16.13.47:948][806]LogFbx: Warning: Triangulating static mesh SM_hat
-[2019.01.14-16.13.48:367][806]LogShaderCompilers: Display: Shaders left to compile 22
-[2019.01.14-16.13.48:367][806]LogShaderCompilers: Display: Shaders left to compile 12
-[2019.01.14-16.13.48:367][806]LogShaderCompilers: Display: Shaders left to compile 2
-[2019.01.14-16.13.48:420][806]LogStaticMesh: Building static mesh mann...
-[2019.01.14-16.13.48:566][806]LogStaticMesh: Built static mesh [0.15s] /Game/mann.mann
-[2019.01.14-16.14.04:017][412]LogActorFactory: Actor Factory created mann
-[2019.01.14-16.14.05:734][610]LogActorFactory: Actor Factory created mann
-[2019.01.14-16.14.25:159][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.15.17:916][443]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.15.18:201][443]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Untitled_1_Auto5C2A3EB114F40424B946AF59FEE583D79.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Temp/Untitled_1_Auto5.umap'
-[2019.01.14-16.15.18:204][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.269
-[2019.01.14-16.15.18:204][443]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
-[2019.01.14-16.15.18:207][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mann] ([1] browsable assets)...
-[2019.01.14-16.15.18:225][443]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/mann.mann]
-[2019.01.14-16.15.18:225][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/mann]
-[2019.01.14-16.15.18:225][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Game/mann_Auto5.uasset" SILENT=false AUTOSAVING=true
-[2019.01.14-16.15.18:248][443]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/mann_Auto54D909F694D660186ACF3E08A485BFBC5.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Game/mann_Auto5.uasset'
-[2019.01.14-16.15.18:249][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_hatMat] ([1] browsable assets)...
-[2019.01.14-16.15.18:264][443]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SM_hatMat.SM_hatMat]
-[2019.01.14-16.15.18:264][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_hatMat]
-[2019.01.14-16.15.18:286][443]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/SM_hatMat_Auto5277E224F4197425061004D91F4C0C8F9.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Game/SM_hatMat_Auto5.uasset'
-[2019.01.14-16.15.18:287][443]LogFileHelpers: Auto-saving content packages took 0.081
-[2019.01.14-16.17.11:461][ 29]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.18.32:636][692]Cmd: TRANSACTION UNDO
-[2019.01.14-16.18.32:636][692]LogEditorTransaction: Undo Move Actors
-[2019.01.14-16.18.32:668][692]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_6.BrushComponent0) Component already registered.
-[2019.01.14-16.18.32:670][692]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.GroupActor_0.GroupComponent) Component already registered.
-[2019.01.14-16.18.32:671][692]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_3.BrushComponent0) Component already registered.
-[2019.01.14-16.18.32:671][692]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_20.BrushComponent0) Component already registered.
-[2019.01.14-16.18.32:671][692]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_19.BrushComponent0) Component already registered.
-[2019.01.14-16.19.50:992][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.19.58:218][397]Cmd: TRANSACTION UNDO
-[2019.01.14-16.19.58:218][397]LogEditorTransaction: Undo Move Actors
-[2019.01.14-16.19.58:246][397]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_SideWlk_Sub_8.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:372][205]Cmd: TRANSACTION UNDO
-[2019.01.14-16.20.05:372][205]LogEditorTransaction: Undo Move Actors
-[2019.01.14-16.20.05:401][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_18.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:401][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_19.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:401][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_Street_2.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:402][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_SideWlk_3.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:403][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_SideWlk_Sub_4.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:403][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_SideWlk_Sub_5.BrushComponent0) Component already registered.
-[2019.01.14-16.20.05:403][205]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.Brush_SideWlk_Sub_8.BrushComponent0) Component already registered.
-[2019.01.14-16.20.26:339][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.20.37:842][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.20.40:807][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.20.44:857][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.21.12:515][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.22.47:048][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.08:813][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.21:664][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.28:053][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.38:604][772]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.40:847][998]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.43:120][226]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.45:935][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.49:470][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.51:416][ 41]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.23.58:628][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.24.02:918][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.24.08:308][882]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.24.15:158][534]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.24.20:818][167]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.24.32:605][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.25.56:296][231]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.25.56:639][231]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Untitled_1_Auto6704399E5458147FC730906A7E893A166.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Autosaves/Temp/Untitled_1_Auto6.umap'
-[2019.01.14-16.25.56:642][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.326
-[2019.01.14-16.25.56:642][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.326
-[2019.01.14-16.26.23:414][399]Cmd: TRANSACTION UNDO
-[2019.01.14-16.26.23:414][399]LogEditorTransaction: Undo Apply Material to Surface
-[2019.01.14-16.27.17:608][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.28.36:970][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.28.39:333][377]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-16.28.41:490][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.29.06:630][506]Cmd: DELETE
-[2019.01.14-16.29.06:630][506]Cmd: ACTOR DELETE
-[2019.01.14-16.29.06:655][506]LogEditorActor: Deleted Actor: Brush
-[2019.01.14-16.29.06:719][506]LogEditorActor: Deleted 1 Actors (0.079 secs)
-[2019.01.14-16.29.08:440][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.29.10:851][910]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.01.14-16.29.13:472][212]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.29.24:955][508]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.30.28:175][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.30.32:011][387]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.30.47:871][387]LogSlate: Window 'Save Level As' being destroyed
-[2019.01.14-16.30.49:678][387]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/LS_ICWhiteBox6204BBD948A4E8E75828B082AA8332D5.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox.umap'
-[2019.01.14-16.30.49:715][387]LogFileHelpers: Saving map 'LS_ICWhiteBox' took 1.837
-[2019.01.14-16.30.49:718][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MI_WBSideWlk_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBSideWlk_LS.uasset" SILENT=true
-[2019.01.14-16.30.49:726][387]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBSideWlk_LS8F71B4A04E4C17EDC503AB984BE7DA26.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBSideWlk_LS.uasset'
-[2019.01.14-16.30.49:735][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/mann.uasset" SILENT=true
-[2019.01.14-16.30.49:746][387]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/mannF482A2F149C73FBF0BEB37982FE0E81A.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/mann.uasset'
-[2019.01.14-16.30.49:753][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_hatMat" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/SM_hatMat.uasset" SILENT=true
-[2019.01.14-16.30.49:762][387]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/SM_hatMatB825FF7E42A92C858C4D1AA99FAC7371.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/SM_hatMat.uasset'
-[2019.01.14-16.31.03:666][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LS_ICWhiteBox_BuiltData" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox_BuiltData.uasset" SILENT=true
-[2019.01.14-16.31.03:683][780]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/LS_ICWhiteBox_BuiltData5702B36849D38BE0BE8BC1B6EDEF467E.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox_BuiltData.uasset'
+[2019.01.16-15.01.43:338][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-15.01.43:338][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.16-15.01.43:360][  0]LogHAL: Display: Platform has ~ 16 GB [17095360512 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.16-15.01.43:361][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.16-15.01.43:361][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.16-15.01.43:367][  0]LogInit: Computer: eae-n-025
+[2019.01.16-15.01.43:367][  0]LogInit: User: u1047856
+[2019.01.16-15.01.43:367][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.16-15.01.43:367][  0]LogInit: High frequency timer resolution =3.023439 MHz
+[2019.01.16-15.01.43:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.16-15.01.43:367][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.16-15.01.43:367][  0]LogMemory: Process Physical Memory: 99.67 MB used, 99.67 MB peak
+[2019.01.16-15.01.43:367][  0]LogMemory: Process Virtual Memory: 90.89 MB used, 90.89 MB peak
+[2019.01.16-15.01.43:367][  0]LogMemory: Physical Memory: 3380.82 MB used,  12922.59 MB free, 16303.41 MB total
+[2019.01.16-15.01.43:367][  0]LogMemory: Virtual Memory: 4640.71 MB used,  12922.59 MB free, 134217728.00 MB total
+[2019.01.16-15.01.43:590][  0]LogInit: Using OS detected language (en-US).
+[2019.01.16-15.01.43:590][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.16-15.01.43:594][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.16-15.01.44:017][  0]LogStreaming: Display: Took  0.426s to InitEngineTextLocalization.
+[2019.01.16-15.01.44:018][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.16-15.01.44:118][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.16-15.01.44:118][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.16-15.01.46:616][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-15.01.46:616][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.16-15.01.46:657][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
+[2019.01.16-15.01.46:657][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2019.01.16-15.01.46:709][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.16-15.01.46:709][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.16-15.01.46:711][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.16-15.01.46:711][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.16-15.01.46:711][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.16-15.01.46:719][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.16-15.01.46:719][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
+[2019.01.16-15.01.46:719][  0]LogWindows: EnumDisplayDevices:
+[2019.01.16-15.01.46:719][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
+[2019.01.16-15.01.46:720][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:1)
+[2019.01.16-15.01.46:720][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.01.46:720][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.01.46:720][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.01.46:721][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.01.46:721][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.01.46:721][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.16-15.01.46:721][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.16-15.01.46:721][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
+[2019.01.16-15.01.46:721][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
+[2019.01.16-15.01.46:721][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
+[2019.01.16-15.01.46:721][  0]LogD3D11RHI:      Driver Date: 8-30-2018
+[2019.01.16-15.01.46:721][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
+[2019.01.16-15.01.46:853][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.16-15.01.46:877][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.01.16-15.01.46:881][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Intermediate/Shaders/WorkingDirectory/9372/).
+[2019.01.16-15.01.46:881][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1047856/AppData/Local/Temp/UnrealShaderWorkingDir/9197F594486E75A4257B77A7CB871A87/'.
+[2019.01.16-15.01.47:264][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.16-15.01.47:279][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.16-15.01.47:294][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.16-15.01.47:306][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.16-15.01.47:323][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.16-15.01.47:340][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.16-15.01.47:355][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.16-15.01.47:370][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.16-15.01.47:378][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:466][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.01.47:469][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.16-15.01.47:538][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-15.01.47:538][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-15.01.47:558][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-15.01.47:558][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-15.01.47:570][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.16-15.01.47:583][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.16-15.01.47:595][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.16-15.01.47:614][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.16-15.01.47:623][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.16-15.01.47:624][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.16-15.01.47:790][  0]LogXGEController: Cleaning working directory: C:/Users/u1047856/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.16-15.01.47:791][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.16-15.01.47:791][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.16-15.01.47:791][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.16-15.01.49:549][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.16-15.01.49:807][  0]LogDerivedDataCache: Loaded boot cache 0.26s 71MB C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.16-15.01.49:807][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.16-15.01.49:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.16-15.01.49:808][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.16-15.01.49:808][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.16-15.01.49:808][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.16-15.01.49:829][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.16-15.01.49:842][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1047856/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.16-15.01.49:842][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.16-15.01.49:842][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.16-15.01.49:859][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.16-15.01.49:867][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.16-15.01.49:883][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.16-15.01.50:212][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.01.16-15.01.50:583][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-15.01.50:936][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.16-15.01.50:962][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.16-15.01.50:962][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.16-15.01.50:963][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.16-15.01.50:963][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.16-15.01.51:031][  0]LogNetVersion: LS_ICWhitebox001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2089255751)
+[2019.01.16-15.01.52:370][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.109033 seconds
+[2019.01.16-15.01.52:379][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.16-15.01.52:379][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.16-15.01.52:379][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.16-15.01.56:143][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.16-15.01.56:161][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.16-15.01.56:491][  0]SourceControl: Source control is disabled
+[2019.01.16-15.01.56:491][  0]SourceControl: Source control is disabled
+[2019.01.16-15.01.56:506][  0]SourceControl: Source control is disabled
+[2019.01.16-15.01.56:511][  0]SourceControl: Source control is disabled
+[2019.01.16-15.01.56:862][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.16-15.01.56:993][  0]LogOcInput: OculusInput pre-init called
+[2019.01.16-15.01.57:128][  0]LogEngine: Initializing Engine...
+[2019.01.16-15.01.57:131][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-15.01.57:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-15.01.57:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-15.01.57:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-15.01.57:134][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-15.01.57:511][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.16-15.01.57:548][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.16-15.01.57:585][  0]LogInit: XAudio2 using '4 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.16-15.01.57:657][  0]LogInit: FAudioDevice initialized.
+[2019.01.16-15.01.57:657][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.16-15.01.57:735][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/u1047856/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.16-15.01.57:738][  0]LogInit: Texture streaming: Enabled
+[2019.01.16-15.01.57:766][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.16-15.01.57:790][  0]LogInit: Transaction tracking system initialized
+[2019.01.16-15.01.57:858][  0]BlueprintLog: New page: Editor Load
+[2019.01.16-15.01.58:115][  0]LocalizationService: Localization service is disabled
+[2019.01.16-15.01.58:734][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/' took 0.01s
+[2019.01.16-15.01.58:734][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.16-15.01.58:735][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.16-15.01.58:735][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.16-15.01.58:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-15.01.58:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-15.01.58:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-15.01.58:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-15.01.59:094][  0]SourceControl: Source control is disabled
+[2019.01.16-15.01.59:094][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-15.01.59:101][  0]LightingResults: New page: Lighting Build
+[2019.01.16-15.01.59:113][  0]MapCheck: New page: Map Check
+[2019.01.16-15.01.59:113][  0]LightingResults: New page: Lighting Build
+[2019.01.16-15.01.59:442][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.16-15.01.59:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-15.01.59:489][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-15.01.59:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.818ms to complete.
+[2019.01.16-15.01.59:551][  0]LogFileHelpers: Loading map 'Template_Default' took 0.457
+[2019.01.16-15.01.59:744][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.01.59:752][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.01.59:757][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.01.59:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.01.59:789][  0]LogCollectionManager: Loaded 0 collections in 0.001865 seconds
+[2019.01.16-15.01.59:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/Collections/' took 0.01s
+[2019.01.16-15.01.59:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/Developers/u1047856/Collections/' took 0.01s
+[2019.01.16-15.01.59:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/Collections/' took 0.01s
+[2019.01.16-15.01.59:858][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.16-15.01.59:870][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2572 classes and 603 folders.
+[2019.01.16-15.01.59:886][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.02.00:343][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.02.00:360][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.16-15.02.00:434][  0]LogSlate: Took 0.006272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.16-15.02.00:442][  0]LogSlate: Took 0.005334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.16-15.02.00:454][  0]LogSlate: Took 0.004831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.16-15.02.00:599][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.16-15.02.00:807][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.02.00:807][  0]LogLoad: (Engine Initialization) Total time: 22.55 seconds
+[2019.01.16-15.02.00:807][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.16-15.02.00:838][  0]LogAssetRegistry: Asset discovery search completed in 10.6494 seconds
+[2019.01.16-15.02.00:838][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.16-15.02.00:838][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2019.01.16-15.02.00:843][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.16-15.02.03:579][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.02.04:558][426]LogSlate: Took 0.006501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.16-15.02.04:712][426]LogAIModule: Creating AISystem for world LS_ICWhiteBox
+[2019.01.16-15.02.04:724][426]LogAssetEditorManager: Opening Asset editor for World /Game/LS_ICWhiteBox.LS_ICWhiteBox
+[2019.01.16-15.02.04:745][426]Cmd: MAP LOAD FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-15.02.04:745][426]LightingResults: New page: Lighting Build
+[2019.01.16-15.02.04:746][426]LoadErrors: New page: Loading map: LS_ICWhiteBox.umap
+[2019.01.16-15.02.04:746][426]MapCheck: New page: Map Check
+[2019.01.16-15.02.04:746][426]LightingResults: New page: Lighting Build
+[2019.01.16-15.02.04:772][426]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-15.02.04:808][426]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-15.02.04:868][426]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.93ms to complete.
+[2019.01.16-15.02.04:868][426]LogFileHelpers: Loading map 'LS_ICWhiteBox' took 0.124
+[2019.01.16-15.05.44:319][528]Cmd: DELETE
+[2019.01.16-15.05.44:319][528]Cmd: ACTOR DELETE
+[2019.01.16-15.05.44:339][528]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.05.44:499][528]LogEditorActor: Deleted 1 Actors (0.178 secs)
+[2019.01.16-15.05.45:538][632]Cmd: DELETE
+[2019.01.16-15.05.45:538][632]Cmd: ACTOR DELETE
+[2019.01.16-15.05.45:552][632]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.05.45:700][632]LogEditorActor: Deleted 1 Actors (0.162 secs)
+[2019.01.16-15.06.23:536][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.07.07:981][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.07.43:019][100]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.07.44:514][274]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.07.46:462][274]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/LS_ICWhiteBox742E7A2845666B8B60AC31B533FA3E5B.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox.umap'
+[2019.01.16-15.07.46:516][274]LogFileHelpers: Saving map 'LS_ICWhiteBox' took 1.992
+[2019.01.16-15.07.49:425][620]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.07.54:221][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.07.54:313][194]MapCheck: New page: Map Check
+[2019.01.16-15.07.54:327][194]Cmd: MAP REBUILD ALLVISIBLE
+[2019.01.16-15.07.54:327][194]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.01.16-15.07.54:554][194]LogEditorServer: Cleared 1296 NULL BSP materials after rebuild.
+[2019.01.16-15.07.54:678][194]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2019.01.16-15.07.54:687][194]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.01.16-15.07.54:694][194]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.07.54:694][194]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-15.07.54:694][194]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.01.16-15.07.54:702][194]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_WBStreet_LS, compiling. 
+[2019.01.16-15.07.54:708][194]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy SM_hatMat, compiling. 
+[2019.01.16-15.07.55:669][194]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.16-15.07.55:669][194]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.07.55:669][194]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-15.07.55:670][194]TextureStreamingBuild: Display: Compiling optional shaders took 0.998 seconds.
+[2019.01.16-15.07.55:702][194]LogLevel: Display: Export Material TexCoord Scales took 0.032 seconds.
+[2019.01.16-15.07.55:784][194]TextureStreamingBuild: Display: Build Texture Streaming took 0.083 seconds.
+[2019.01.16-15.07.55:806][194]LightingResults: New page: Lighting Build - Jan 16, 2019, 1:07:55 AM
+[2019.01.16-15.07.55:857][194]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.01.16-15.07.55:997][194]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.01.16-15.07.56:023][194]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.01.16-15.07.56:537][194]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.01.16-15.07.56:537][194]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9372
+[2019.01.16-15.07.59:470][194]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.01.16-15.07.59:471][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.01.16-15.07.59:471][194]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.01.16-15.07.59:471][194]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.01.16-15.07.59:471][194]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.01.16-15.07.59:471][194]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.01.16-15.07.59:659][194]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.01.16-15.07.59:659][194]MapCheck: New page: LS_ICWhiteBox - Jan 16, 2019, 1:07:59 AM
+[2019.01.16-15.07.59:659][194]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.01.16-15.07.59:724][194]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 64.74ms to complete.
+[2019.01.16-15.07.59:746][194]LogEditorBuildUtils: Build time 0:05
+[2019.01.16-15.07.59:755][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.07.59:777][194]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.01.16-15.07.59:786][194]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.01.16-15.07.59:821][194]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.16-15.07.59:844][195]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.16-15.07.59:853][195]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.07.59:853][195]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2019.01.16-15.07.59:867][195]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.07.59:885][196]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SM_hatMat, compiling. 
+[2019.01.16-15.07.59:893][196]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.07.59:893][196]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer SM_hatMat, compiling. 
+[2019.01.16-15.07.59:924][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WBStreet_LS, compiling. 
+[2019.01.16-15.07.59:935][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MI_WBStreet_LS, compiling. 
+[2019.01.16-15.07.59:998][199]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.01.16-15.08.00:006][199]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2019.01.16-15.08.02:080][201]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.16-15.08.03:600][248]LogSlate: Window 'Message Log' being destroyed
+[2019.01.16-15.08.03:608][248]LogSlate: Window 'Message Log' being destroyed
+[2019.01.16-15.08.05:433][412]Job is a success!
+[2019.01.16-15.08.05:461][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport:      BrickData 665x5x5 = 0.6Mb
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport:      Bricks at Level
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport:          0: 0.8% covering 100.0% of volume
+[2019.01.16-15.08.05:537][413]LogVolumetricLightmapImport:          1: 6.8% covering 14.1% of volume
+[2019.01.16-15.08.05:538][413]LogVolumetricLightmapImport:          2: 92.5% covering 3.0% of volume
+[2019.01.16-15.08.05:639][413]LogMaterial: Warning: Material /Game/SM_hatMat.SM_hatMat needed to have new flag set bUsedWithStaticLighting !
+[2019.01.16-15.08.05:641][413]LogMaterial: Display: Missing cached shader map for material SM_hatMat, compiling. 
+[2019.01.16-15.08.05:698][413]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.16-15.08.05:698][413]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.16-15.08.05:698][413]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.16-15.08.05:698][413]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2019.01.16-15.08.05:971][413]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2019.01.16-15.08.06:170][413]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2019.01.16-15.08.06:170][413]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2019.01.16-15.08.06:267][413]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2019.01.16-15.08.06:297][413]Lightmass on eae-n-025: 2.96 sec total, 140 ms importing, 22 ms setup, 542 ms photons, 2.19 sec processing, 0 ms extra exporting [97/97 mappings]. Threads: 15.1 sec total, 5.45 sec processing.
+[2019.01.16-15.08.06:349][413]LogMaterial: Warning: Material /Game/M_WBM_LS.M_WBM_LS needed to have new flag set bUsedWithStaticLighting !
+[2019.01.16-15.08.06:352][413]LogMaterial: Display: Missing cached shader map for material M_WBM_LS, compiling. 
+[2019.01.16-15.08.06:372][413]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.16-15.08.06:407][413]LogStaticLightingSystem: Illumination: 10.5 sec (226 ms encoding lightmaps, 292 ms encoding shadowmaps)
+[2019.01.16-15.08.06:407][413]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (0.1 MB streaming, 4.0 MB non-streaming), 8 textures
+[2019.01.16-15.08.06:407][413]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 3 textures
+[2019.01.16-15.08.06:468][413]DumpUnbuiltLightIteractions
+[2019.01.16-15.08.06:468][413]Lights with unbuilt interactions: 0
+[2019.01.16-15.08.06:468][413]
+[2019.01.16-15.08.06:468][413]Primitives with unbuilt interactions: 0
+[2019.01.16-15.08.06:479][413]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.08.10:123][413]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.16-15.08.10:123][413]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.16-15.08.10:123][413]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.16-15.08.10:268][414]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.01.16-15.08.10:269][414]MapCheck: New page: LS_ICWhiteBox - Jan 16, 2019, 1:08:10 AM
+[2019.01.16-15.08.10:336][414]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 66.704ms to complete.
+[2019.01.16-15.08.30:980][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.08.33:744][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.08.34:302][178]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/LS_ICWhiteBoxD65DB90A4DB6E1C630D2C3989A52B247.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox.umap'
+[2019.01.16-15.08.34:327][178]LogFileHelpers: Saving map 'LS_ICWhiteBox' took 0.581
+[2019.01.16-15.08.34:329][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LS_ICWhiteBox_BuiltData" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox_BuiltData.uasset" SILENT=true
+[2019.01.16-15.08.34:432][178]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/LS_ICWhiteBox_BuiltDataA1CDB3934AC6AD02DDD5DD8128B9AB3A.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/LS_ICWhiteBox_BuiltData.uasset'
+[2019.01.16-15.08.34:463][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_WBM_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/M_WBM_LS.uasset" SILENT=true
+[2019.01.16-15.08.34:485][178]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/M_WBM_LS761E048D4F0EC21F607ECBA88449AFE2.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/M_WBM_LS.uasset'
+[2019.01.16-15.08.34:507][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MI_WBSideWlk_LS" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBSideWlk_LS.uasset" SILENT=true
+[2019.01.16-15.08.34:528][178]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/MI_WBSideWlk_LS0FD99A474C162EADD955898A19897158.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/MI_WBSideWlk_LS.uasset'
+[2019.01.16-15.08.34:548][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_hatMat" FILE="../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/SM_hatMat.uasset" SILENT=true
+[2019.01.16-15.08.34:571][178]LogSavePackage: Moving '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Saved/SM_hatMat4AF2DE2D45BEA3F2F93ABBBA62D9AF96.tmp' to '../../../../../../Users/u1047856/Documents/GitHub/LS_AssetPipeline/LS_ICWhitebox001/Content/SM_hatMat.uasset'
+[2019.01.16-15.08.37:140][483]LogSlate: FSceneViewport::OnFocusLost() reason 0
